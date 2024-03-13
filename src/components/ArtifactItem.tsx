@@ -3,6 +3,7 @@ import {Artifact} from '../store/api/actions/types';
 import {View, Text} from 'react-native';
 
 type ArtifactItemProps = {artifact: Artifact};
+
 export const ArtifactItem = ({artifact}: ArtifactItemProps) => {
   return (
     <View>

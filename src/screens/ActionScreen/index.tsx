@@ -11,11 +11,13 @@ type ActionScreenProps = StackScreenProps<
   AppStackParamList,
   AppScreenName.Action
 >;
+
 export const ActionScreen = ({
   route: {
     params: {artifact},
   },
 }: ActionScreenProps) => {
+  
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
       <ArtifactItem artifact={artifact} />
